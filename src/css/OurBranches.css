@@ -1,0 +1,154 @@
+.branches-section {
+    padding: 80px 0;
+    background: linear-gradient(135deg, #f1f8e9, #e8f5e9);
+    position: relative;
+    /* background-image: url('../assets/map_bg.png'); */ /* Removed to fix error */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.branches-section::before {
+    display: none; /* Removed overlay */
+}
+
+.branches-section .container {
+    position: relative;
+    z-index: 1;
+}
+
+.branches-title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+    color: #2c3e50;
+    position: relative;
+    padding-bottom: 15px;
+}
+
+.branches-title::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 4px;
+    background: linear-gradient(90deg, #27ae60, #229954);
+    border-radius: 2px;
+}
+
+.branches-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.branches-slider {
+    padding: 0 20px;
+}
+
+.branch-slide {
+    padding: 0 15px;
+}
+
+.branch-card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid #e0e0e0;
+    margin-bottom: 10px; /* Add some margin for spacing in the slider */
+}
+
+.branch-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.branch-card-header {
+    background: linear-gradient(135deg, #28b463 0%, #229954 100%);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.branch-card-header h3 {
+    margin: 0;
+    font-size: 1.5rem;
+    width: 20px;
+    text-align: center;
+}
+
+.branch-card-body {
+    padding: 25px;
+}
+
+.branch-card-body p {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    color: #555;
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+.branch-card-body p:last-child {
+    margin-bottom: 0;
+}
+
+.branch-icon {
+    color: #27ae60;
+    font-size: 1.1rem;
+    margin-right: 15px;
+    width: 20px;
+    text-align: center;
+}
+
+/* Slick Slider Customizations */
+.branches-slider .slick-dots li button:before {
+    font-size: 12px;
+    color: #27ae60;
+    opacity: 0.5;
+}
+
+.branches-slider .slick-dots li.slick-active button:before {
+    color: #27ae60;
+    opacity: 1;
+}
+
+.branches-slider .slick-prev:before,
+.branches-slider .slick-next:before {
+    font-size: 24px;
+    color: #2c3e50;
+}
+
+.branches-slider .slick-prev {
+    left: -35px;
+}
+
+.branches-slider .slick-next {
+    right: -35px;
+}
+
+@media (max-width: 768px) {
+    .branches-title {
+        font-size: 2rem;
+    }
+    
+    .branches-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .branches-slider .slick-prev {
+        left: -10px;
+    }
+    
+    .branches-slider .slick-next {
+        right: -10px;
+    }
+}

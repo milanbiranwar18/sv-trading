@@ -1,0 +1,165 @@
+/* Navbar container styling */
+.navbar_container {
+    position: relative;
+    width: 100%;
+}
+
+/* Navbar main styling */
+.navbar_div {
+    background-color: #001133;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-top: 2px;
+    padding-bottom: 5px;
+    padding-right: 20px;
+    position: relative;
+    z-index: 1000;
+}
+
+/* Search bar styling */
+.search_input {
+    display: none;
+}
+
+.search_input_active {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 25px;
+    padding: 5px 15px;
+    width: 300px;
+}
+
+.search_input_active input {
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.search_icon, .close_icon {
+    font-size: 25px;
+    cursor: pointer;
+    color: white;
+}
+
+/* Navigation links (right-aligned in desktop view) */
+.nav_links {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.nav_link {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Sidebar styles */
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: -100%; /* Hide the sidebar by default */
+    width: 170px;
+    height: 50vh;
+    background-color: #001133;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 30px;
+    transition: all 0.3s ease-in-out;
+    z-index: 999;
+    padding-top: 140px;
+}
+
+.sidebar.active {
+    left: 0; /* Slide sidebar in */
+}
+
+/* Sidebar links */
+.sidebar_link {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 10px 0px;
+}
+
+/* Center search icon in desktop view */
+@media screen and (min-width: 991px) {
+    .search_input {
+        display: flex;
+        justify-content: center;
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .search_icon, .close_icon {
+        font-size: 25px;
+        cursor: pointer;
+        color: white; /* Ensures the icon matches the theme */
+    }
+
+    .search_input_active {
+        justify-content: flex-start;
+    }
+}
+
+/* Show full navigation and hide menu icon in desktop view */
+@media screen and (min-width: 991px) {
+    .menu_icon {
+        display: none !important;
+    }
+
+    .mobile_search_icon {
+        display: none !important;
+    }
+
+    .nav_links {
+        display: flex;
+        justify-content: flex-end;
+        margin-left: auto;
+    }
+
+    .search_input_active {
+        justify-content: flex-start;
+    }
+
+    .search_input {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+/* Show menu icon and hide navigation links in mobile view */
+@media screen and (max-width: 990px) {
+    .nav_links {
+        display: none;
+    }
+
+    .menu_icon {
+        display: block;
+        color: white;
+        cursor: pointer;
+        
+    }
+
+    .mobile_search_icon {
+        display: block;
+        color: white;
+        font-size: 25px;
+        margin-right: 10px;
+        cursor: pointer;
+    }
+
+    .search_input_active {
+        justify-content: flex-start;
+    }
+}
+

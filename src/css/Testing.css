@@ -1,0 +1,111 @@
+/* Testing Page General Styles */
+.testing-page {
+    padding: 60px 0;
+    background: #fdfdfd;
+}
+
+.testing-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header Section */
+.testing-header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.testing-title {
+    font-size: 2.8rem;
+    color: #2c5530;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.testing-intro {
+    font-size: 1.1rem;
+    color: #666;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.7;
+}
+
+/* Content Section */
+.testing-content {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.07);
+}
+
+.testing-text {
+    flex: 1;
+}
+
+.testing-text h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.testing-text p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+.testing-image-container {
+    flex: 1;
+    max-width: 500px;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+.testing-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.4s ease;
+}
+
+.testing-image:hover {
+    transform: scale(1.05);
+}
+
+/* Responsive Design */
+@media (max-width: 992px) {
+    .testing-content {
+        flex-direction: column-reverse; /* Puts text above image on mobile */
+        padding: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .testing-page {
+        padding: 40px 0;
+    }
+    .testing-title {
+        font-size: 2.2rem;
+    }
+    .testing-intro {
+        font-size: 1rem;
+    }
+    .testing-text h2 {
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .testing-title {
+        font-size: 1.8rem;
+    }
+    .testing-content {
+        padding: 20px;
+    }
+}

@@ -1,0 +1,59 @@
+@media (max-width: 768px) {
+    /* Adjust heading and paragraph padding */
+    .fz24 {
+      font-size: 20px;
+      padding: 10px 0; /* Add padding for better spacing */
+    }
+    
+    .fz14 {
+      font-size: 14px;
+      padding: 5px 0; /* Adjust padding if needed */
+    }
+  
+    /* Ensure the form control (text boxes) fit properly on smaller screens */
+    .form-control {
+      width: 100%; /* Make text boxes full width */
+      padding: 10px; /* Adjust padding */
+      font-size: 14px; /* Slightly reduce font size */
+    }
+  
+    /* Adjust overall container padding for mobile */
+    .contactForm {
+      padding: 20px; /* Reduce padding for better fit */
+    }
+  
+    .mb-5 {
+      margin-bottom: 15px; /* Adjust margin to create more space */
+    }
+  }
+  
+
+  @media (min-width: 769px) {
+    /* Adjust heading and paragraph styling for desktop */
+    .fz24 {
+      font-size: 24px; /* Original or larger size */
+      padding: 20px 0; /* Add padding for a clean look */
+    }
+    
+    .fz14 {
+      font-size: 16px; /* Original or larger size */
+      padding: 10px 0; /* Adjust padding as needed */
+    }
+  
+    /* Styling for form controls (text boxes) */
+    .form-control {
+      width: 600px; /* Fixed width for desktop */
+      padding: 12px; /* Adequate padding */
+      font-size: 16px; /* Original size for readability */
+    }
+  
+    /* Ensure proper padding for the contact form */
+    .contactForm {
+      padding: 60px; /* Add padding for desktop */
+    }
+  
+    .mb-5 {
+      margin-bottom: 20px; /* Space between elements */
+    }
+  }
+  

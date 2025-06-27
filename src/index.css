@@ -1,13 +1,149 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* .logo {
+  height: 80px;
+  width: 80px;
+  margin-left: -1350px;
+  cursor: pointer;
+  background-color: darkslateblue;
+} */
+
+/* General body styles */
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensures the body takes up the full viewport height */
 }
+
+/* Main container styles */
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensures it takes up the full viewport height */
+}
+
+/* Header styles */
+/* header {
+
+  background-color: #001133;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  font-size: 24px;
+} */
+
+
+/* Main content styles */
+main {
+  flex: 1; /* Allows the main content to grow and fill the available space */
+  padding: 20px;
+  max-width: 960px;
+  margin: 0 auto;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+/* Utility classes for alignment */
+.text-center {
+  text-align: center;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+
+
+/* .header {
+  display: flex;
+  align-items: center; 
+  padding: 10px 20px;
+  background-color: #001133;
+}
+
+.logo {
+  width: 50px; 
+  height: auto;
+  margin-right: 20px; 
+}
+*/
+/* .header-title {
+  font-size: 32px;
+  margin-right: 100px;
+  
+  display: flex;
+  justify-content: right;
+  align-items: right;
+  
+  text-align: right;
+  color: #f4f0f0;
+}  */
+
+
+
+/* .header {
+  display: flex;
+  align-items: center; 
+  padding: 10px 20px;
+  background-color: #001133;
+  height: 80px; /* 
+} */
+
+.header {
+  display: flex;
+  justify-content: space-between; /* Align items to both ends of the container */
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #001133;
+  height: 80px;
+  margin-bottom: 18px;
+}
+
+.logo-container {
+  padding-top: 20px;
+  width: 230px; /* Container size stays fixed */
+  height: 130px; /* Container size stays fixed */
+  overflow: hidden; /* Ensures that any overflowed content is hidden */
+}
+
+.logo {
+  width: 100%; /* Image scales to fill container */
+  height: 100%; /* Image scales to fill container */
+  object-fit: cover; /* Ensures the image fills the container without stretching */
+  transform: scale(1.3); /* Increase the size of the image */
+  margin-right: 50px;
+
+}
+
+
+
+
+
+/* .logo-container {
+  margin-right: auto; 
+} */
+
+.header-title {
+  font-size: 25px;
+  font-style: initial;
+  margin-right: 100px;
+  color: #f4f0f0;
+  text-align: right; /* Align text to the right */
+}
+
+
+

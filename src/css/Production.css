@@ -1,0 +1,138 @@
+.prod {
+  background-color: white;
+}
+
+/* Production Page General Styles */
+.production-page {
+    padding: 60px 0;
+    background: #fdfdfd;
+}
+
+.production-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header Section */
+.production-header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.production-title {
+    font-size: 2.8rem;
+    color: #2c5530;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.production-intro {
+    font-size: 1.1rem;
+    color: #666;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.7;
+}
+
+/* Content Section */
+.production-content {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.07);
+}
+
+.production-text {
+    flex: 1;
+}
+
+.production-text h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.production-text p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+.production-image-container {
+    flex: 1;
+    max-width: 500px;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+.production-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.4s ease;
+}
+
+.production-image:hover {
+    transform: scale(1.05);
+}
+
+/* Responsive Design */
+@media (max-width: 992px) {
+    .production-content {
+        flex-direction: column;
+        padding: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .production-page {
+        padding: 40px 0;
+    }
+    .production-title {
+        font-size: 2.2rem;
+    }
+    .production-intro {
+        font-size: 1rem;
+    }
+    .production-text h2 {
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .production-title {
+        font-size: 1.8rem;
+    }
+    .production-content {
+        padding: 20px;
+    }
+}
+
+/* .image-container {
+  max-width: 800px;
+  width: 100%;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+} */
+
+/* .production-image:hover {
+  transform: scale(1.05);
+} */
+
+/* Responsive Design */
+/* @media (max-width: 768px) {
+  .image-section {
+    padding: 40px 10px;
+  }
+
+  .image-container {
+    max-width: 100%;
+  }
+} */
