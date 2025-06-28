@@ -12,6 +12,7 @@ const Navbar = () => {
 
     const inputHandler = () => {
         setData(!data);  // Toggles the search bar visibility
+        
     };
 
     const menuHandler = () => {
