@@ -4,7 +4,7 @@ import { faPhone, faEnvelope, faMapMarkerAlt, faClock, faIndustry, faFlask, faSh
 import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 import '../css/Product1.css';
 
-const PotassiumSulphate = () => {
+const PotassiumCarbonate = () => {
     const [formData, setFormData] = useState({
         name: '',
         email: '',
@@ -40,15 +40,15 @@ const PotassiumSulphate = () => {
             {/* Hero Section */}
             <div className="product-hero">
                 <div className="hero-content">
-                    <h1>Potassium Sulphate</h1>
-                    <p className="product-subtitle">Premium Potassium Fertilizer for Agricultural Applications</p>
+                    <h1>Potassium Carbonate</h1>
+                    <p className="product-subtitle">Versatile Alkali Compound for Industrial and Food Applications</p>
                     <div className="price-info">
-                        <span className="price">₹ 75/Kg</span>
-                        <span className="moq">Minimum Order Quantity: 100 Kg</span>
+                        <span className="price">₹ 95/Kg</span>
+                        <span className="moq">Minimum Order Quantity: 50 Kg</span>
                     </div>
                 </div>
                 <div className="hero-image">
-                    <img src="/src/assets/chemical_placeholder.jpg" alt="Potassium Sulphate" />
+                    <img src="/src/assets/chemical_placeholder.jpg" alt="Potassium Carbonate" />
                 </div>
             </div>
 
@@ -59,14 +59,14 @@ const PotassiumSulphate = () => {
                     <section className="product-section">
                         <h2>Product Overview</h2>
                         <p>
-                            Potassium Sulphate is a white crystalline compound widely used in agriculture as a premium 
-                            potassium fertilizer. It provides both potassium and sulphur nutrients to plants and is 
-                            particularly suitable for chloride-sensitive crops.
+                            Potassium Carbonate is a white crystalline compound widely used in glass manufacturing, 
+                            soap production, and food processing. It serves as a pH regulator, buffering agent, and 
+                            has applications in chemical manufacturing and agriculture.
                         </p>
                         <div className="product-features">
                             <div className="feature">
-                                <FontAwesomeIcon icon={faSeedling} />
-                                <span>Agricultural Grade</span>
+                                <FontAwesomeIcon icon={faIndustry} />
+                                <span>Industrial Grade</span>
                             </div>
                             <div className="feature">
                                 <FontAwesomeIcon icon={faFlask} />
@@ -74,11 +74,11 @@ const PotassiumSulphate = () => {
                             </div>
                             <div className="feature">
                                 <FontAwesomeIcon icon={faShieldAlt} />
-                                <span>Premium Fertilizer</span>
+                                <span>pH Regulator</span>
                             </div>
                             <div className="feature">
                                 <FontAwesomeIcon icon={faBoxes} />
-                                <span>100kg Bags</span>
+                                <span>50kg Bags</span>
                             </div>
                         </div>
                     </section>
@@ -97,19 +97,19 @@ const PotassiumSulphate = () => {
                             </div>
                             <div className="spec-item">
                                 <span className="spec-label">Usage/Application</span>
-                                <span className="spec-value">Agriculture, Fertilizer</span>
+                                <span className="spec-value">Glass, Soap, Food, Industrial</span>
                             </div>
                             <div className="spec-item">
                                 <span className="spec-label">Grade</span>
-                                <span className="spec-value">Agricultural Grade</span>
+                                <span className="spec-value">Industrial Grade & Food Grade</span>
                             </div>
                             <div className="spec-item">
                                 <span className="spec-label">Packaging Details</span>
-                                <span className="spec-value">100kg Bag</span>
+                                <span className="spec-value">50kg Bag</span>
                             </div>
                             <div className="spec-item">
                                 <span className="spec-label">Chemical Formula</span>
-                                <span className="spec-value">K2SO4</span>
+                                <span className="spec-value">K2CO3</span>
                             </div>
                         </div>
                     </section>
@@ -119,28 +119,28 @@ const PotassiumSulphate = () => {
                         <h2>Applications</h2>
                         <div className="applications-grid">
                             <div className="application-card">
+                                <h3>Glass Manufacturing</h3>
+                                <p>Used in glass production for improving clarity and reducing melting temperature.</p>
+                            </div>
+                            <div className="application-card">
+                                <h3>Soap Production</h3>
+                                <p>Used in soap manufacturing as a pH regulator and buffering agent.</p>
+                            </div>
+                            <div className="application-card">
+                                <h3>Food Processing</h3>
+                                <p>Used in food products as a leavening agent and pH regulator.</p>
+                            </div>
+                            <div className="application-card">
+                                <h3>Chemical Manufacturing</h3>
+                                <p>Used as a precursor in the synthesis of other potassium compounds.</p>
+                            </div>
+                            <div className="application-card">
                                 <h3>Agriculture</h3>
-                                <p>Used as a premium potassium fertilizer for various crops including fruits, vegetables, and tobacco.</p>
+                                <p>Used in fertilizers and soil amendments for potassium supplementation.</p>
                             </div>
                             <div className="application-card">
-                                <h3>Horticulture</h3>
-                                <p>Used in gardening and landscaping for plant nutrition and soil enrichment.</p>
-                            </div>
-                            <div className="application-card">
-                                <h3>Greenhouse Farming</h3>
-                                <p>Used in controlled environment agriculture for precise nutrient management.</p>
-                            </div>
-                            <div className="application-card">
-                                <h3>Hydroponics</h3>
-                                <p>Used in hydroponic systems as a source of potassium and sulphur.</p>
-                            </div>
-                            <div className="application-card">
-                                <h3>Fertilizer Blending</h3>
-                                <p>Used in fertilizer manufacturing for creating balanced NPK formulations.</p>
-                            </div>
-                            <div className="application-card">
-                                <h3>Soil Amendment</h3>
-                                <p>Used for soil improvement and potassium deficiency correction.</p>
+                                <h3>Textile Industry</h3>
+                                <p>Used in textile processing for dyeing and finishing applications.</p>
                             </div>
                         </div>
                     </section>
@@ -150,11 +150,11 @@ const PotassiumSulphate = () => {
                         <h2>Product Benefits</h2>
                         <ul className="benefits-list">
                             <li>High purity 99% grade</li>
-                            <li>Contains both K and S nutrients</li>
-                            <li>Chloride-free formulation</li>
-                            <li>Excellent for sensitive crops</li>
-                            <li>Widely used in agriculture</li>
-                            <li>Premium fertilizer quality</li>
+                            <li>Excellent pH regulator</li>
+                            <li>Versatile industrial applications</li>
+                            <li>Safe for food use</li>
+                            <li>Widely used in manufacturing</li>
+                            <li>Multiple industrial uses</li>
                             <li>Reliable performance</li>
                         </ul>
                     </section>
@@ -169,19 +169,19 @@ const PotassiumSulphate = () => {
                             </div>
                             <div className="property-item">
                                 <h3>Melting Point</h3>
-                                <p>1069°C (1956°F)</p>
+                                <p>891°C (1636°F)</p>
                             </div>
                             <div className="property-item">
                                 <h3>Density</h3>
-                                <p>2.66 g/cm³</p>
+                                <p>2.43 g/cm³</p>
                             </div>
                             <div className="property-item">
                                 <h3>Molecular Weight</h3>
-                                <p>174.26 g/mol</p>
+                                <p>138.21 g/mol</p>
                             </div>
                             <div className="property-item">
                                 <h3>CAS Number</h3>
-                                <p>7778-80-5</p>
+                                <p>584-08-7</p>
                             </div>
                             <div className="property-item">
                                 <h3>Solubility</h3>
@@ -196,7 +196,7 @@ const PotassiumSulphate = () => {
                         <div className="safety-info">
                             <div className="safety-item">
                                 <h3>Storage</h3>
-                                <p>Store in a cool, dry place in tightly closed containers. Keep away from moisture.</p>
+                                <p>Store in a cool, dry place in tightly closed containers. Keep away from acids and moisture.</p>
                             </div>
                             <div className="safety-item">
                                 <h3>Handling</h3>
@@ -306,4 +306,4 @@ const PotassiumSulphate = () => {
     );
 };
 
-export default PotassiumSulphate; 
+export default PotassiumCarbonate; 

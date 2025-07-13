@@ -3,30 +3,14 @@ import '../css/TeamMembers.css';
 import Image from './images/profile_picture.webp';
 
 const teamMembers = [
-    {
-        name: 'Mr. V. Yadav',
-        role: 'CEO & Founder',
-        imgSrc: Image,
-      },
-      {
-        name: 'Jane Doe',
-        role: 'Head of Sales',
-        imgSrc: Image,
-      },
-  {
-    name: 'John Smith',
-    role: 'Lead Trader',
-    imgSrc: Image, 
-  },
-
   {
     name: 'Sameet Pawar',
-    role: 'Administration and Managing Head',
+    role: 'CEO & Founder',
     imgSrc: Image,
   },
   {
-    name: 'Ranjit Yadav',
-    role: 'Analytical Head',
+    name: 'Namrata Pawar',
+    role: 'Co-founder',
     imgSrc: Image,
   },
 ];

@@ -4,7 +4,7 @@ import { faPhone, faEnvelope, faMapMarkerAlt, faClock, faIndustry, faFlask, faSh
 import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 import '../css/Product1.css';
 
-const PotassiumSulphate = () => {
+const MagnesiumChloride = () => {
     const [formData, setFormData] = useState({
         name: '',
         email: '',
@@ -40,15 +40,15 @@ const PotassiumSulphate = () => {
             {/* Hero Section */}
             <div className="product-hero">
                 <div className="hero-content">
-                    <h1>Potassium Sulphate</h1>
-                    <p className="product-subtitle">Premium Potassium Fertilizer for Agricultural Applications</p>
+                    <h1>Magnesium Chloride</h1>
+                    <p className="product-subtitle">Essential Magnesium Compound for Industrial and Agricultural Applications</p>
                     <div className="price-info">
-                        <span className="price">₹ 75/Kg</span>
+                        <span className="price">₹ 45/Kg</span>
                         <span className="moq">Minimum Order Quantity: 100 Kg</span>
                     </div>
                 </div>
                 <div className="hero-image">
-                    <img src="/src/assets/chemical_placeholder.jpg" alt="Potassium Sulphate" />
+                    <img src="/src/assets/chemical_placeholder.jpg" alt="Magnesium Chloride" />
                 </div>
             </div>
 
@@ -59,22 +59,22 @@ const PotassiumSulphate = () => {
                     <section className="product-section">
                         <h2>Product Overview</h2>
                         <p>
-                            Potassium Sulphate is a white crystalline compound widely used in agriculture as a premium 
-                            potassium fertilizer. It provides both potassium and sulphur nutrients to plants and is 
-                            particularly suitable for chloride-sensitive crops.
+                            Magnesium Chloride is a white crystalline compound widely used in dust control, road de-icing, 
+                            and agricultural applications. It serves as a source of magnesium for plants and has applications 
+                            in food processing and industrial manufacturing.
                         </p>
                         <div className="product-features">
                             <div className="feature">
-                                <FontAwesomeIcon icon={faSeedling} />
-                                <span>Agricultural Grade</span>
+                                <FontAwesomeIcon icon={faIndustry} />
+                                <span>Industrial Grade</span>
                             </div>
                             <div className="feature">
                                 <FontAwesomeIcon icon={faFlask} />
-                                <span>99% Purity</span>
+                                <span>98% Purity</span>
                             </div>
                             <div className="feature">
                                 <FontAwesomeIcon icon={faShieldAlt} />
-                                <span>Premium Fertilizer</span>
+                                <span>Dust Control</span>
                             </div>
                             <div className="feature">
                                 <FontAwesomeIcon icon={faBoxes} />
@@ -89,7 +89,7 @@ const PotassiumSulphate = () => {
                         <div className="specs-grid">
                             <div className="spec-item">
                                 <span className="spec-label">Purity</span>
-                                <span className="spec-value">99%</span>
+                                <span className="spec-value">98%</span>
                             </div>
                             <div className="spec-item">
                                 <span className="spec-label">Form</span>
@@ -97,11 +97,11 @@ const PotassiumSulphate = () => {
                             </div>
                             <div className="spec-item">
                                 <span className="spec-label">Usage/Application</span>
-                                <span className="spec-value">Agriculture, Fertilizer</span>
+                                <span className="spec-value">Dust Control, Agriculture, Industrial</span>
                             </div>
                             <div className="spec-item">
                                 <span className="spec-label">Grade</span>
-                                <span className="spec-value">Agricultural Grade</span>
+                                <span className="spec-value">Industrial Grade</span>
                             </div>
                             <div className="spec-item">
                                 <span className="spec-label">Packaging Details</span>
@@ -109,7 +109,7 @@ const PotassiumSulphate = () => {
                             </div>
                             <div className="spec-item">
                                 <span className="spec-label">Chemical Formula</span>
-                                <span className="spec-value">K2SO4</span>
+                                <span className="spec-value">MgCl2</span>
                             </div>
                         </div>
                     </section>
@@ -119,28 +119,28 @@ const PotassiumSulphate = () => {
                         <h2>Applications</h2>
                         <div className="applications-grid">
                             <div className="application-card">
+                                <h3>Dust Control</h3>
+                                <p>Used for dust suppression on roads, construction sites, and mining operations.</p>
+                            </div>
+                            <div className="application-card">
+                                <h3>Road De-icing</h3>
+                                <p>Used as a de-icing agent for roads and highways during winter conditions.</p>
+                            </div>
+                            <div className="application-card">
                                 <h3>Agriculture</h3>
-                                <p>Used as a premium potassium fertilizer for various crops including fruits, vegetables, and tobacco.</p>
+                                <p>Used as a magnesium source in fertilizers for crop nutrition and soil improvement.</p>
                             </div>
                             <div className="application-card">
-                                <h3>Horticulture</h3>
-                                <p>Used in gardening and landscaping for plant nutrition and soil enrichment.</p>
+                                <h3>Food Processing</h3>
+                                <p>Used in food processing as a coagulant and firming agent for tofu and other products.</p>
                             </div>
                             <div className="application-card">
-                                <h3>Greenhouse Farming</h3>
-                                <p>Used in controlled environment agriculture for precise nutrient management.</p>
+                                <h3>Textile Industry</h3>
+                                <p>Used in textile processing for dyeing and finishing applications.</p>
                             </div>
                             <div className="application-card">
-                                <h3>Hydroponics</h3>
-                                <p>Used in hydroponic systems as a source of potassium and sulphur.</p>
-                            </div>
-                            <div className="application-card">
-                                <h3>Fertilizer Blending</h3>
-                                <p>Used in fertilizer manufacturing for creating balanced NPK formulations.</p>
-                            </div>
-                            <div className="application-card">
-                                <h3>Soil Amendment</h3>
-                                <p>Used for soil improvement and potassium deficiency correction.</p>
+                                <h3>Chemical Manufacturing</h3>
+                                <p>Used as a precursor in the synthesis of other magnesium compounds.</p>
                             </div>
                         </div>
                     </section>
@@ -149,12 +149,12 @@ const PotassiumSulphate = () => {
                     <section className="product-section">
                         <h2>Product Benefits</h2>
                         <ul className="benefits-list">
-                            <li>High purity 99% grade</li>
-                            <li>Contains both K and S nutrients</li>
-                            <li>Chloride-free formulation</li>
-                            <li>Excellent for sensitive crops</li>
+                            <li>High purity 98% grade</li>
+                            <li>Excellent dust control properties</li>
+                            <li>Versatile industrial applications</li>
+                            <li>Cost-effective magnesium source</li>
                             <li>Widely used in agriculture</li>
-                            <li>Premium fertilizer quality</li>
+                            <li>Multiple industrial uses</li>
                             <li>Reliable performance</li>
                         </ul>
                     </section>
@@ -169,23 +169,23 @@ const PotassiumSulphate = () => {
                             </div>
                             <div className="property-item">
                                 <h3>Melting Point</h3>
-                                <p>1069°C (1956°F)</p>
+                                <p>714°C (1317°F)</p>
+                            </div>
+                            <div className="property-item">
+                                <h3>Boiling Point</h3>
+                                <p>1412°C (2574°F)</p>
                             </div>
                             <div className="property-item">
                                 <h3>Density</h3>
-                                <p>2.66 g/cm³</p>
+                                <p>2.32 g/cm³</p>
                             </div>
                             <div className="property-item">
                                 <h3>Molecular Weight</h3>
-                                <p>174.26 g/mol</p>
+                                <p>95.21 g/mol</p>
                             </div>
                             <div className="property-item">
                                 <h3>CAS Number</h3>
-                                <p>7778-80-5</p>
-                            </div>
-                            <div className="property-item">
-                                <h3>Solubility</h3>
-                                <p>Soluble in water</p>
+                                <p>7786-30-3</p>
                             </div>
                         </div>
                     </section>
@@ -196,7 +196,7 @@ const PotassiumSulphate = () => {
                         <div className="safety-info">
                             <div className="safety-item">
                                 <h3>Storage</h3>
-                                <p>Store in a cool, dry place in tightly closed containers. Keep away from moisture.</p>
+                                <p>Store in a cool, dry place in tightly closed containers. Keep away from moisture and heat.</p>
                             </div>
                             <div className="safety-item">
                                 <h3>Handling</h3>
@@ -204,7 +204,7 @@ const PotassiumSulphate = () => {
                             </div>
                             <div className="safety-item">
                                 <h3>Disposal</h3>
-                                <p>Dispose of according to local environmental regulations. Safe for normal disposal.</p>
+                                <p>Dispose of according to local environmental regulations. Do not release into the environment.</p>
                             </div>
                         </div>
                     </section>
@@ -306,4 +306,4 @@ const PotassiumSulphate = () => {
     );
 };
 
-export default PotassiumSulphate; 
+export default MagnesiumChloride; 

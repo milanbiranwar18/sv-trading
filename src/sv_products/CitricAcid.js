@@ -3,33 +3,33 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faIndustry, faFlask, faBoxes, faCheckCircle, faLeaf, faRecycle, faThermometerHalf, faTint } from '@fortawesome/free-solid-svg-icons';
 import '../css/Product1.css';
 
-const LiquidPolymaleicAcid = () => {
+const CitricAcid = () => {
     return (
         <div className="product-page">
             <div className="product-hero">
                 <div className="product-hero-content">
                     <div className="product-hero-text">
-                        <h1>Liquid Polymaleic Acid</h1>
+                        <h1>Citric Acid</h1>
                         <p className="product-subtitle">
-                            High-performance scale inhibitor and dispersant for water treatment applications
+                            High-purity citric acid for food, pharmaceutical, and industrial applications
                         </p>
                         <div className="product-highlights">
                             <div className="highlight-item">
                                 <FontAwesomeIcon icon={faCheckCircle} />
-                                <span>Scale inhibition</span>
+                                <span>Food grade quality</span>
                             </div>
                             <div className="highlight-item">
                                 <FontAwesomeIcon icon={faCheckCircle} />
-                                <span>Water treatment</span>
+                                <span>Natural preservative</span>
                             </div>
                             <div className="highlight-item">
                                 <FontAwesomeIcon icon={faCheckCircle} />
-                                <span>Dispersant properties</span>
+                                <span>Pharmaceutical grade</span>
                             </div>
                         </div>
                     </div>
                     <div className="product-hero-image">
-                        <img src="/src/assets/clear.jpg" alt="Liquid Polymaleic Acid" />
+                        <img src="/src/assets/clear.jpg" alt="Citric Acid" />
                     </div>
                 </div>
             </div>
@@ -38,9 +38,9 @@ const LiquidPolymaleicAcid = () => {
                 <div className="product-section">
                     <h2>Product Overview</h2>
                     <p>
-                        Liquid Polymaleic Acid is a high-performance scale inhibitor and dispersant used in 
-                        water treatment systems. It effectively prevents scale formation and disperses suspended 
-                        particles in cooling water, boiler water, and other industrial water systems.
+                        Citric Acid is a weak organic acid found naturally in citrus fruits, widely used as a 
+                        preservative, flavoring agent, and pH regulator in food, beverage, pharmaceutical, and 
+                        industrial applications. It offers excellent chelating and buffering properties.
                     </p>
                 </div>
 
@@ -50,29 +50,29 @@ const LiquidPolymaleicAcid = () => {
                         <div className="spec-item">
                             <FontAwesomeIcon icon={faFlask} />
                             <div>
-                                <h4>Active Content</h4>
-                                <p>50-60%</p>
+                                <h4>Purity</h4>
+                                <p>≥ 99.5%</p>
                             </div>
                         </div>
                         <div className="spec-item">
                             <FontAwesomeIcon icon={faThermometerHalf} />
                             <div>
-                                <h4>pH Range</h4>
-                                <p>1.5-3.0</p>
+                                <h4>Melting Point</h4>
+                                <p>153°C</p>
                             </div>
                         </div>
                         <div className="spec-item">
                             <FontAwesomeIcon icon={faTint} />
                             <div>
-                                <h4>Density</h4>
-                                <p>1.25-1.35 g/cm³</p>
+                                <h4>Solubility</h4>
+                                <p>133 g/100ml water</p>
                             </div>
                         </div>
                         <div className="spec-item">
                             <FontAwesomeIcon icon={faIndustry} />
                             <div>
                                 <h4>Packaging</h4>
-                                <p>200L Drums, IBCs</p>
+                                <p>25kg Bags, Drums</p>
                             </div>
                         </div>
                     </div>
@@ -83,23 +83,23 @@ const LiquidPolymaleicAcid = () => {
                     <div className="applications-grid">
                         <div className="application-card">
                             <FontAwesomeIcon icon={faIndustry} />
-                            <h4>Cooling Water Systems</h4>
-                            <p>Scale inhibition and corrosion control in cooling towers</p>
+                            <h4>Food Processing</h4>
+                            <p>Preservative, flavoring agent, and pH regulator in food products</p>
                         </div>
                         <div className="application-card">
                             <FontAwesomeIcon icon={faFlask} />
-                            <h4>Boiler Water Treatment</h4>
-                            <p>Scale prevention in boiler feed water systems</p>
+                            <h4>Beverage Industry</h4>
+                            <p>Acidulant and preservative in soft drinks and juices</p>
                         </div>
                         <div className="application-card">
                             <FontAwesomeIcon icon={faBoxes} />
-                            <h4>Reverse Osmosis</h4>
-                            <p>Antiscalant for RO membrane protection</p>
+                            <h4>Pharmaceuticals</h4>
+                            <p>Excipient and buffering agent in drug formulations</p>
                         </div>
                         <div className="application-card">
                             <FontAwesomeIcon icon={faRecycle} />
-                            <h4>Industrial Water</h4>
-                            <p>Scale control in various industrial water systems</p>
+                            <h4>Cleaning Products</h4>
+                            <p>Natural chelating agent in household and industrial cleaners</p>
                         </div>
                     </div>
                 </div>
@@ -107,12 +107,12 @@ const LiquidPolymaleicAcid = () => {
                 <div className="product-section">
                     <h2>Benefits</h2>
                     <ul className="benefits-list">
-                        <li>Excellent scale inhibition performance</li>
-                        <li>Effective dispersion of suspended particles</li>
-                        <li>Compatible with various water treatment chemicals</li>
-                        <li>Stable under high temperature conditions</li>
-                        <li>Cost-effective water treatment solution</li>
-                        <li>Environmentally friendly formulation</li>
+                        <li>Natural and safe for food applications</li>
+                        <li>Excellent chelating properties</li>
+                        <li>Effective pH regulator</li>
+                        <li>Stable under normal conditions</li>
+                        <li>Compatible with various formulations</li>
+                        <li>Cost-effective preservative</li>
                     </ul>
                 </div>
 
@@ -122,28 +122,28 @@ const LiquidPolymaleicAcid = () => {
                         <table>
                             <tbody>
                                 <tr>
-                                    <td>Appearance</td>
-                                    <td>Clear to pale yellow liquid</td>
+                                    <td>Molecular Formula</td>
+                                    <td>C₆H₈O₇</td>
                                 </tr>
                                 <tr>
                                     <td>Molecular Weight</td>
-                                    <td>400-800 g/mol</td>
+                                    <td>192.12 g/mol</td>
                                 </tr>
                                 <tr>
-                                    <td>Viscosity</td>
-                                    <td>50-200 cps at 25°C</td>
+                                    <td>Appearance</td>
+                                    <td>White crystalline powder</td>
                                 </tr>
                                 <tr>
-                                    <td>Solubility</td>
-                                    <td>Fully soluble in water</td>
+                                    <td>pH (1% solution)</td>
+                                    <td>2.2-2.4</td>
                                 </tr>
                                 <tr>
-                                    <td>Stability</td>
-                                    <td>Stable up to 200°C</td>
+                                    <td>Bulk Density</td>
+                                    <td>0.9-1.1 g/cm³</td>
                                 </tr>
                                 <tr>
-                                    <td>Freezing Point</td>
-                                    <td>-5°C</td>
+                                    <td>Moisture Content</td>
+                                    <td>≤ 0.5%</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -155,15 +155,15 @@ const LiquidPolymaleicAcid = () => {
                     <div className="safety-info">
                         <div className="safety-item">
                             <h4>Handling</h4>
-                            <p>Use appropriate protective equipment. Avoid contact with skin and eyes. Handle in well-ventilated areas.</p>
+                            <p>Use in well-ventilated areas. Avoid inhalation of dust. Wear appropriate protective equipment.</p>
                         </div>
                         <div className="safety-item">
                             <h4>Storage</h4>
-                            <p>Store in a cool, dry place. Keep container tightly closed. Protect from freezing.</p>
+                            <p>Store in a cool, dry place in tightly closed containers. Protect from moisture.</p>
                         </div>
                         <div className="safety-item">
                             <h4>Transportation</h4>
-                            <p>Classified as corrosive liquid. Follow all applicable transportation regulations.</p>
+                            <p>Classified as non-hazardous. Follow standard transportation regulations.</p>
                         </div>
                     </div>
                 </div>
@@ -171,9 +171,9 @@ const LiquidPolymaleicAcid = () => {
                 <div className="product-section">
                     <h2>Quality Assurance</h2>
                     <p>
-                        Our Liquid Polymaleic Acid is manufactured under strict quality control measures to ensure 
-                        consistent performance and effectiveness. Each batch is tested for active content, pH, 
-                        and performance characteristics.
+                        Our Citric Acid is manufactured under strict quality control measures to ensure 
+                        consistent purity and performance. Each batch is tested for compliance with food grade 
+                        and pharmaceutical standards.
                     </p>
                 </div>
             </div>
@@ -190,4 +190,4 @@ const LiquidPolymaleicAcid = () => {
     );
 };
 
-export default LiquidPolymaleicAcid; 
+export default CitricAcid; 

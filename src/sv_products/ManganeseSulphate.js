@@ -4,7 +4,7 @@ import { faPhone, faEnvelope, faMapMarkerAlt, faClock, faIndustry, faFlask, faSh
 import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 import '../css/Product1.css';
 
-const PotassiumSulphate = () => {
+const ManganeseSulphate = () => {
     const [formData, setFormData] = useState({
         name: '',
         email: '',
@@ -40,15 +40,15 @@ const PotassiumSulphate = () => {
             {/* Hero Section */}
             <div className="product-hero">
                 <div className="hero-content">
-                    <h1>Potassium Sulphate</h1>
-                    <p className="product-subtitle">Premium Potassium Fertilizer for Agricultural Applications</p>
+                    <h1>Manganese Sulphate</h1>
+                    <p className="product-subtitle">Essential Manganese Compound for Agricultural and Industrial Applications</p>
                     <div className="price-info">
-                        <span className="price">₹ 75/Kg</span>
-                        <span className="moq">Minimum Order Quantity: 100 Kg</span>
+                        <span className="price">₹ 85/Kg</span>
+                        <span className="moq">Minimum Order Quantity: 50 Kg</span>
                     </div>
                 </div>
                 <div className="hero-image">
-                    <img src="/src/assets/chemical_placeholder.jpg" alt="Potassium Sulphate" />
+                    <img src="/src/assets/chemical_placeholder.jpg" alt="Manganese Sulphate" />
                 </div>
             </div>
 
@@ -59,9 +59,9 @@ const PotassiumSulphate = () => {
                     <section className="product-section">
                         <h2>Product Overview</h2>
                         <p>
-                            Potassium Sulphate is a white crystalline compound widely used in agriculture as a premium 
-                            potassium fertilizer. It provides both potassium and sulphur nutrients to plants and is 
-                            particularly suitable for chloride-sensitive crops.
+                            Manganese Sulphate is a pink crystalline compound widely used in agriculture as a micronutrient 
+                            for plants and in industrial applications. It serves as an essential trace element for crop 
+                            nutrition and has applications in animal feed and chemical manufacturing.
                         </p>
                         <div className="product-features">
                             <div className="feature">
@@ -70,15 +70,15 @@ const PotassiumSulphate = () => {
                             </div>
                             <div className="feature">
                                 <FontAwesomeIcon icon={faFlask} />
-                                <span>99% Purity</span>
+                                <span>98% Purity</span>
                             </div>
                             <div className="feature">
                                 <FontAwesomeIcon icon={faShieldAlt} />
-                                <span>Premium Fertilizer</span>
+                                <span>Micronutrient</span>
                             </div>
                             <div className="feature">
                                 <FontAwesomeIcon icon={faBoxes} />
-                                <span>100kg Bags</span>
+                                <span>50kg Bags</span>
                             </div>
                         </div>
                     </section>
@@ -89,15 +89,15 @@ const PotassiumSulphate = () => {
                         <div className="specs-grid">
                             <div className="spec-item">
                                 <span className="spec-label">Purity</span>
-                                <span className="spec-value">99%</span>
+                                <span className="spec-value">98%</span>
                             </div>
                             <div className="spec-item">
                                 <span className="spec-label">Form</span>
-                                <span className="spec-value">White Crystalline Powder</span>
+                                <span className="spec-value">Pink Crystalline Powder</span>
                             </div>
                             <div className="spec-item">
                                 <span className="spec-label">Usage/Application</span>
-                                <span className="spec-value">Agriculture, Fertilizer</span>
+                                <span className="spec-value">Agriculture, Animal Feed, Industrial</span>
                             </div>
                             <div className="spec-item">
                                 <span className="spec-label">Grade</span>
@@ -105,11 +105,11 @@ const PotassiumSulphate = () => {
                             </div>
                             <div className="spec-item">
                                 <span className="spec-label">Packaging Details</span>
-                                <span className="spec-value">100kg Bag</span>
+                                <span className="spec-value">50kg Bag</span>
                             </div>
                             <div className="spec-item">
                                 <span className="spec-label">Chemical Formula</span>
-                                <span className="spec-value">K2SO4</span>
+                                <span className="spec-value">MnSO4</span>
                             </div>
                         </div>
                     </section>
@@ -120,27 +120,27 @@ const PotassiumSulphate = () => {
                         <div className="applications-grid">
                             <div className="application-card">
                                 <h3>Agriculture</h3>
-                                <p>Used as a premium potassium fertilizer for various crops including fruits, vegetables, and tobacco.</p>
+                                <p>Used as a micronutrient in fertilizers for crop nutrition and soil enrichment.</p>
+                            </div>
+                            <div className="application-card">
+                                <h3>Animal Feed</h3>
+                                <p>Used in animal feed formulations as an essential trace element for livestock health.</p>
                             </div>
                             <div className="application-card">
                                 <h3>Horticulture</h3>
-                                <p>Used in gardening and landscaping for plant nutrition and soil enrichment.</p>
+                                <p>Used in gardening and landscaping for plant nutrition and growth enhancement.</p>
                             </div>
                             <div className="application-card">
-                                <h3>Greenhouse Farming</h3>
-                                <p>Used in controlled environment agriculture for precise nutrient management.</p>
+                                <h3>Chemical Manufacturing</h3>
+                                <p>Used as a precursor in the synthesis of other manganese compounds.</p>
                             </div>
                             <div className="application-card">
-                                <h3>Hydroponics</h3>
-                                <p>Used in hydroponic systems as a source of potassium and sulphur.</p>
+                                <h3>Textile Industry</h3>
+                                <p>Used in textile processing for dyeing and finishing applications.</p>
                             </div>
                             <div className="application-card">
-                                <h3>Fertilizer Blending</h3>
-                                <p>Used in fertilizer manufacturing for creating balanced NPK formulations.</p>
-                            </div>
-                            <div className="application-card">
-                                <h3>Soil Amendment</h3>
-                                <p>Used for soil improvement and potassium deficiency correction.</p>
+                                <h3>Ceramic Industry</h3>
+                                <p>Used in ceramic manufacturing for color development and glazing.</p>
                             </div>
                         </div>
                     </section>
@@ -149,12 +149,12 @@ const PotassiumSulphate = () => {
                     <section className="product-section">
                         <h2>Product Benefits</h2>
                         <ul className="benefits-list">
-                            <li>High purity 99% grade</li>
-                            <li>Contains both K and S nutrients</li>
-                            <li>Chloride-free formulation</li>
-                            <li>Excellent for sensitive crops</li>
-                            <li>Widely used in agriculture</li>
-                            <li>Premium fertilizer quality</li>
+                            <li>High purity 98% grade</li>
+                            <li>Essential micronutrient for plants</li>
+                            <li>Versatile agricultural applications</li>
+                            <li>Cost-effective manganese source</li>
+                            <li>Widely used in farming</li>
+                            <li>Multiple industrial uses</li>
                             <li>Reliable performance</li>
                         </ul>
                     </section>
@@ -165,23 +165,23 @@ const PotassiumSulphate = () => {
                         <div className="properties-grid">
                             <div className="property-item">
                                 <h3>Appearance</h3>
-                                <p>White crystalline powder</p>
+                                <p>Pink crystalline powder</p>
                             </div>
                             <div className="property-item">
                                 <h3>Melting Point</h3>
-                                <p>1069°C (1956°F)</p>
+                                <p>700°C (1292°F)</p>
                             </div>
                             <div className="property-item">
                                 <h3>Density</h3>
-                                <p>2.66 g/cm³</p>
+                                <p>3.25 g/cm³</p>
                             </div>
                             <div className="property-item">
                                 <h3>Molecular Weight</h3>
-                                <p>174.26 g/mol</p>
+                                <p>151.00 g/mol</p>
                             </div>
                             <div className="property-item">
                                 <h3>CAS Number</h3>
-                                <p>7778-80-5</p>
+                                <p>7785-87-7</p>
                             </div>
                             <div className="property-item">
                                 <h3>Solubility</h3>
@@ -196,7 +196,7 @@ const PotassiumSulphate = () => {
                         <div className="safety-info">
                             <div className="safety-item">
                                 <h3>Storage</h3>
-                                <p>Store in a cool, dry place in tightly closed containers. Keep away from moisture.</p>
+                                <p>Store in a cool, dry place in tightly closed containers. Keep away from oxidizing agents.</p>
                             </div>
                             <div className="safety-item">
                                 <h3>Handling</h3>
@@ -204,7 +204,7 @@ const PotassiumSulphate = () => {
                             </div>
                             <div className="safety-item">
                                 <h3>Disposal</h3>
-                                <p>Dispose of according to local environmental regulations. Safe for normal disposal.</p>
+                                <p>Dispose of according to local environmental regulations. Do not release into the environment.</p>
                             </div>
                         </div>
                     </section>
@@ -306,4 +306,4 @@ const PotassiumSulphate = () => {
     );
 };
 
-export default PotassiumSulphate; 
+export default ManganeseSulphate; 

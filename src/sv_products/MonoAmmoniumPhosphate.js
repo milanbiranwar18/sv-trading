@@ -4,7 +4,7 @@ import { faPhone, faEnvelope, faMapMarkerAlt, faClock, faIndustry, faFlask, faSh
 import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 import '../css/Product1.css';
 
-const PotassiumSulphate = () => {
+const MonoAmmoniumPhosphate = () => {
     const [formData, setFormData] = useState({
         name: '',
         email: '',
@@ -40,15 +40,15 @@ const PotassiumSulphate = () => {
             {/* Hero Section */}
             <div className="product-hero">
                 <div className="hero-content">
-                    <h1>Potassium Sulphate</h1>
-                    <p className="product-subtitle">Premium Potassium Fertilizer for Agricultural Applications</p>
+                    <h1>Mono Ammonium Phosphate</h1>
+                    <p className="product-subtitle">High-Efficiency Phosphorus Fertilizer for Agricultural Applications</p>
                     <div className="price-info">
-                        <span className="price">₹ 75/Kg</span>
+                        <span className="price">₹ 65/Kg</span>
                         <span className="moq">Minimum Order Quantity: 100 Kg</span>
                     </div>
                 </div>
                 <div className="hero-image">
-                    <img src="/src/assets/chemical_placeholder.jpg" alt="Potassium Sulphate" />
+                    <img src="/src/assets/chemical_placeholder.jpg" alt="Mono Ammonium Phosphate" />
                 </div>
             </div>
 
@@ -59,9 +59,9 @@ const PotassiumSulphate = () => {
                     <section className="product-section">
                         <h2>Product Overview</h2>
                         <p>
-                            Potassium Sulphate is a white crystalline compound widely used in agriculture as a premium 
-                            potassium fertilizer. It provides both potassium and sulphur nutrients to plants and is 
-                            particularly suitable for chloride-sensitive crops.
+                            Mono Ammonium Phosphate (MAP) is a highly soluble phosphorus fertilizer containing both 
+                            nitrogen and phosphorus. It is widely used in agriculture for crop nutrition and soil 
+                            enrichment, providing essential nutrients for plant growth and development.
                         </p>
                         <div className="product-features">
                             <div className="feature">
@@ -74,7 +74,7 @@ const PotassiumSulphate = () => {
                             </div>
                             <div className="feature">
                                 <FontAwesomeIcon icon={faShieldAlt} />
-                                <span>Premium Fertilizer</span>
+                                <span>NP Fertilizer</span>
                             </div>
                             <div className="feature">
                                 <FontAwesomeIcon icon={faBoxes} />
@@ -109,7 +109,7 @@ const PotassiumSulphate = () => {
                             </div>
                             <div className="spec-item">
                                 <span className="spec-label">Chemical Formula</span>
-                                <span className="spec-value">K2SO4</span>
+                                <span className="spec-value">NH4H2PO4</span>
                             </div>
                         </div>
                     </section>
@@ -120,7 +120,7 @@ const PotassiumSulphate = () => {
                         <div className="applications-grid">
                             <div className="application-card">
                                 <h3>Agriculture</h3>
-                                <p>Used as a premium potassium fertilizer for various crops including fruits, vegetables, and tobacco.</p>
+                                <p>Used as a primary phosphorus fertilizer for various crops including cereals, vegetables, and fruits.</p>
                             </div>
                             <div className="application-card">
                                 <h3>Horticulture</h3>
@@ -132,7 +132,7 @@ const PotassiumSulphate = () => {
                             </div>
                             <div className="application-card">
                                 <h3>Hydroponics</h3>
-                                <p>Used in hydroponic systems as a source of potassium and sulphur.</p>
+                                <p>Used in hydroponic systems as a source of phosphorus and nitrogen.</p>
                             </div>
                             <div className="application-card">
                                 <h3>Fertilizer Blending</h3>
@@ -140,7 +140,7 @@ const PotassiumSulphate = () => {
                             </div>
                             <div className="application-card">
                                 <h3>Soil Amendment</h3>
-                                <p>Used for soil improvement and potassium deficiency correction.</p>
+                                <p>Used for soil improvement and phosphorus deficiency correction.</p>
                             </div>
                         </div>
                     </section>
@@ -150,11 +150,11 @@ const PotassiumSulphate = () => {
                         <h2>Product Benefits</h2>
                         <ul className="benefits-list">
                             <li>High purity 99% grade</li>
-                            <li>Contains both K and S nutrients</li>
-                            <li>Chloride-free formulation</li>
-                            <li>Excellent for sensitive crops</li>
+                            <li>Contains both N and P nutrients</li>
+                            <li>Highly soluble in water</li>
+                            <li>Excellent for crop nutrition</li>
                             <li>Widely used in agriculture</li>
-                            <li>Premium fertilizer quality</li>
+                            <li>Cost-effective fertilizer</li>
                             <li>Reliable performance</li>
                         </ul>
                     </section>
@@ -169,23 +169,23 @@ const PotassiumSulphate = () => {
                             </div>
                             <div className="property-item">
                                 <h3>Melting Point</h3>
-                                <p>1069°C (1956°F)</p>
+                                <p>190°C (374°F)</p>
                             </div>
                             <div className="property-item">
                                 <h3>Density</h3>
-                                <p>2.66 g/cm³</p>
+                                <p>1.80 g/cm³</p>
                             </div>
                             <div className="property-item">
                                 <h3>Molecular Weight</h3>
-                                <p>174.26 g/mol</p>
+                                <p>115.03 g/mol</p>
                             </div>
                             <div className="property-item">
                                 <h3>CAS Number</h3>
-                                <p>7778-80-5</p>
+                                <p>7722-76-1</p>
                             </div>
                             <div className="property-item">
                                 <h3>Solubility</h3>
-                                <p>Soluble in water</p>
+                                <p>Highly soluble in water</p>
                             </div>
                         </div>
                     </section>
@@ -196,7 +196,7 @@ const PotassiumSulphate = () => {
                         <div className="safety-info">
                             <div className="safety-item">
                                 <h3>Storage</h3>
-                                <p>Store in a cool, dry place in tightly closed containers. Keep away from moisture.</p>
+                                <p>Store in a cool, dry place in tightly closed containers. Keep away from moisture and heat.</p>
                             </div>
                             <div className="safety-item">
                                 <h3>Handling</h3>
@@ -306,4 +306,4 @@ const PotassiumSulphate = () => {
     );
 };
 
-export default PotassiumSulphate; 
+export default MonoAmmoniumPhosphate; 

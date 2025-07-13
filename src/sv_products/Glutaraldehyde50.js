@@ -4,7 +4,7 @@ import { faPhone, faEnvelope, faMapMarkerAlt, faClock, faIndustry, faFlask, faSh
 import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 import '../css/Product1.css';
 
-const PotassiumSulphate = () => {
+const Glutaraldehyde50 = () => {
     const [formData, setFormData] = useState({
         name: '',
         email: '',
@@ -40,15 +40,15 @@ const PotassiumSulphate = () => {
             {/* Hero Section */}
             <div className="product-hero">
                 <div className="hero-content">
-                    <h1>Potassium Sulphate</h1>
-                    <p className="product-subtitle">Premium Potassium Fertilizer for Agricultural Applications</p>
+                    <h1>Glutaraldehyde 50%</h1>
+                    <p className="product-subtitle">Powerful Disinfectant and Cross-linking Agent for Industrial Applications</p>
                     <div className="price-info">
-                        <span className="price">₹ 75/Kg</span>
-                        <span className="moq">Minimum Order Quantity: 100 Kg</span>
+                        <span className="price">₹ 180/Kg</span>
+                        <span className="moq">Minimum Order Quantity: 25 Kg</span>
                     </div>
                 </div>
                 <div className="hero-image">
-                    <img src="/src/assets/chemical_placeholder.jpg" alt="Potassium Sulphate" />
+                    <img src="/src/assets/chemical_placeholder.jpg" alt="Glutaraldehyde 50%" />
                 </div>
             </div>
 
@@ -59,26 +59,26 @@ const PotassiumSulphate = () => {
                     <section className="product-section">
                         <h2>Product Overview</h2>
                         <p>
-                            Potassium Sulphate is a white crystalline compound widely used in agriculture as a premium 
-                            potassium fertilizer. It provides both potassium and sulphur nutrients to plants and is 
-                            particularly suitable for chloride-sensitive crops.
+                            Glutaraldehyde 50% is a powerful disinfectant and cross-linking agent widely used in medical 
+                            sterilization, water treatment, and industrial applications. It serves as a biocide, preservative, 
+                            and tanning agent with excellent antimicrobial properties.
                         </p>
                         <div className="product-features">
                             <div className="feature">
-                                <FontAwesomeIcon icon={faSeedling} />
-                                <span>Agricultural Grade</span>
+                                <FontAwesomeIcon icon={faIndustry} />
+                                <span>Industrial Grade</span>
                             </div>
                             <div className="feature">
                                 <FontAwesomeIcon icon={faFlask} />
-                                <span>99% Purity</span>
+                                <span>50% Concentration</span>
                             </div>
                             <div className="feature">
                                 <FontAwesomeIcon icon={faShieldAlt} />
-                                <span>Premium Fertilizer</span>
+                                <span>Disinfectant</span>
                             </div>
                             <div className="feature">
                                 <FontAwesomeIcon icon={faBoxes} />
-                                <span>100kg Bags</span>
+                                <span>25kg Drums</span>
                             </div>
                         </div>
                     </section>
@@ -88,28 +88,28 @@ const PotassiumSulphate = () => {
                         <h2>Technical Specifications</h2>
                         <div className="specs-grid">
                             <div className="spec-item">
-                                <span className="spec-label">Purity</span>
-                                <span className="spec-value">99%</span>
+                                <span className="spec-label">Concentration</span>
+                                <span className="spec-value">50%</span>
                             </div>
                             <div className="spec-item">
                                 <span className="spec-label">Form</span>
-                                <span className="spec-value">White Crystalline Powder</span>
+                                <span className="spec-value">Clear Liquid</span>
                             </div>
                             <div className="spec-item">
                                 <span className="spec-label">Usage/Application</span>
-                                <span className="spec-value">Agriculture, Fertilizer</span>
+                                <span className="spec-value">Disinfection, Medical, Industrial</span>
                             </div>
                             <div className="spec-item">
                                 <span className="spec-label">Grade</span>
-                                <span className="spec-value">Agricultural Grade</span>
+                                <span className="spec-value">Industrial Grade</span>
                             </div>
                             <div className="spec-item">
                                 <span className="spec-label">Packaging Details</span>
-                                <span className="spec-value">100kg Bag</span>
+                                <span className="spec-value">25kg Drum</span>
                             </div>
                             <div className="spec-item">
                                 <span className="spec-label">Chemical Formula</span>
-                                <span className="spec-value">K2SO4</span>
+                                <span className="spec-value">C5H8O2</span>
                             </div>
                         </div>
                     </section>
@@ -119,28 +119,28 @@ const PotassiumSulphate = () => {
                         <h2>Applications</h2>
                         <div className="applications-grid">
                             <div className="application-card">
-                                <h3>Agriculture</h3>
-                                <p>Used as a premium potassium fertilizer for various crops including fruits, vegetables, and tobacco.</p>
+                                <h3>Medical Sterilization</h3>
+                                <p>Used in hospitals and medical facilities for sterilizing medical equipment and instruments.</p>
                             </div>
                             <div className="application-card">
-                                <h3>Horticulture</h3>
-                                <p>Used in gardening and landscaping for plant nutrition and soil enrichment.</p>
+                                <h3>Water Treatment</h3>
+                                <p>Used in water treatment systems for disinfection and microbial control.</p>
                             </div>
                             <div className="application-card">
-                                <h3>Greenhouse Farming</h3>
-                                <p>Used in controlled environment agriculture for precise nutrient management.</p>
+                                <h3>Leather Tanning</h3>
+                                <p>Used in leather processing as a tanning agent and cross-linking compound.</p>
                             </div>
                             <div className="application-card">
-                                <h3>Hydroponics</h3>
-                                <p>Used in hydroponic systems as a source of potassium and sulphur.</p>
+                                <h3>Oil & Gas Industry</h3>
+                                <p>Used in oil field applications for microbial control and biocide treatment.</p>
                             </div>
                             <div className="application-card">
-                                <h3>Fertilizer Blending</h3>
-                                <p>Used in fertilizer manufacturing for creating balanced NPK formulations.</p>
+                                <h3>Paper Industry</h3>
+                                <p>Used in paper manufacturing for slime control and microbial prevention.</p>
                             </div>
                             <div className="application-card">
-                                <h3>Soil Amendment</h3>
-                                <p>Used for soil improvement and potassium deficiency correction.</p>
+                                <h3>Cooling Towers</h3>
+                                <p>Used in cooling tower systems for algae and bacterial control.</p>
                             </div>
                         </div>
                     </section>
@@ -149,12 +149,12 @@ const PotassiumSulphate = () => {
                     <section className="product-section">
                         <h2>Product Benefits</h2>
                         <ul className="benefits-list">
-                            <li>High purity 99% grade</li>
-                            <li>Contains both K and S nutrients</li>
-                            <li>Chloride-free formulation</li>
-                            <li>Excellent for sensitive crops</li>
-                            <li>Widely used in agriculture</li>
-                            <li>Premium fertilizer quality</li>
+                            <li>High concentration 50% grade</li>
+                            <li>Excellent disinfectant properties</li>
+                            <li>Versatile industrial applications</li>
+                            <li>Effective biocide</li>
+                            <li>Widely used in medical field</li>
+                            <li>Strong cross-linking agent</li>
                             <li>Reliable performance</li>
                         </ul>
                     </section>
@@ -165,27 +165,27 @@ const PotassiumSulphate = () => {
                         <div className="properties-grid">
                             <div className="property-item">
                                 <h3>Appearance</h3>
-                                <p>White crystalline powder</p>
+                                <p>Clear, colorless liquid</p>
                             </div>
                             <div className="property-item">
                                 <h3>Melting Point</h3>
-                                <p>1069°C (1956°F)</p>
+                                <p>-14°C (7°F)</p>
+                            </div>
+                            <div className="property-item">
+                                <h3>Boiling Point</h3>
+                                <p>187°C (369°F)</p>
                             </div>
                             <div className="property-item">
                                 <h3>Density</h3>
-                                <p>2.66 g/cm³</p>
+                                <p>1.06 g/cm³</p>
                             </div>
                             <div className="property-item">
                                 <h3>Molecular Weight</h3>
-                                <p>174.26 g/mol</p>
+                                <p>100.12 g/mol</p>
                             </div>
                             <div className="property-item">
                                 <h3>CAS Number</h3>
-                                <p>7778-80-5</p>
-                            </div>
-                            <div className="property-item">
-                                <h3>Solubility</h3>
-                                <p>Soluble in water</p>
+                                <p>111-30-8</p>
                             </div>
                         </div>
                     </section>
@@ -196,15 +196,15 @@ const PotassiumSulphate = () => {
                         <div className="safety-info">
                             <div className="safety-item">
                                 <h3>Storage</h3>
-                                <p>Store in a cool, dry place in tightly closed containers. Keep away from moisture.</p>
+                                <p>Store in a cool, well-ventilated area in tightly closed containers. Keep away from heat and oxidizing agents.</p>
                             </div>
                             <div className="safety-item">
                                 <h3>Handling</h3>
-                                <p>Use appropriate personal protective equipment. Avoid inhalation and direct contact with skin and eyes.</p>
+                                <p>Use appropriate personal protective equipment including gloves, goggles, and respiratory protection. Highly toxic.</p>
                             </div>
                             <div className="safety-item">
                                 <h3>Disposal</h3>
-                                <p>Dispose of according to local environmental regulations. Safe for normal disposal.</p>
+                                <p>Dispose of according to local environmental regulations. Do not release into the environment.</p>
                             </div>
                         </div>
                     </section>
@@ -306,4 +306,4 @@ const PotassiumSulphate = () => {
     );
 };
 
-export default PotassiumSulphate; 
+export default Glutaraldehyde50; 

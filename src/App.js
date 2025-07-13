@@ -88,6 +88,21 @@ import CopperEdtaChelated from './sv_products/CopperEdtaChelated';
 import CalciumEdtaChelated from './sv_products/CalciumEdtaChelated';
 import ZincChloridePowder from './sv_products/ZincChloridePowder';
 
+// AUTO-GENERATED PRODUCT IMPORTS
+import CopperCarbonate from './sv_products/CopperCarbonate';
+import CobaltSulphate from './sv_products/CobaltSulphate';
+import Dextrose from './sv_products/Dextrose';
+import CausticPotash from './sv_products/CausticPotash';
+import CastorOil from './sv_products/CastorOil';
+import CitricAcid from './sv_products/CitricAcid';
+import AscorbicAcid from './sv_products/AscorbicAcid';
+import AceticAcid from './sv_products/AceticAcid';
+import AmmoniumCarbonate from './sv_products/AmmoniumCarbonate';
+import AmmoniumBicarbonate from './sv_products/AmmoniumBicarbonate';
+import LiquidPolymaleicAcid from './sv_products/LiquidPolymaleicAcid';
+import DimethylEthanolamineDMEA from './sv_products/DimethylEthanolamineDMEA';
+import MixXyleneSolvent from './sv_products/MixXyleneSolvent';
+
 // Product Categories
 import ProductCategories from './pages/ProductCategories';
 import IndustrialChemical from './pages/categories/IndustrialChemical';
@@ -198,6 +213,21 @@ function App() {
           <Route path="/zinc-chloride-powder" element={<ZincChloridePowder />} />
           <Route path="/calcium-chloride" element={<CalciumChloride />} />
           <Route path="/calcium-nitrate-granular" element={<CalciumNitrateGranular />} />
+
+          {/* AUTO-GENERATED PRODUCT ROUTES */}
+          <Route path="/copper-carbonate" element={<CopperCarbonate />} />
+          <Route path="/cobalt-sulphate" element={<CobaltSulphate />} />
+          <Route path="/dextrose" element={<Dextrose />} />
+          <Route path="/caustic-potash" element={<CausticPotash />} />
+          <Route path="/castor-oil" element={<CastorOil />} />
+          <Route path="/citric-acid" element={<CitricAcid />} />
+          <Route path="/ascorbic-acid" element={<AscorbicAcid />} />
+          <Route path="/acetic-acid" element={<AceticAcid />} />
+          <Route path="/ammonium-carbonate" element={<AmmoniumCarbonate />} />
+          <Route path="/ammonium-bicarbonate" element={<AmmoniumBicarbonate />} />
+          <Route path="/liquid-polymaleic-acid" element={<LiquidPolymaleicAcid />} />
+          <Route path="/dimethyl-ethanolamine-dmea" element={<DimethylEthanolamineDMEA />} />
+          <Route path="/mix-xylene-solvent" element={<MixXyleneSolvent />} />
 
           {/* Product Categories */}
           <Route path="/categories" element={<ProductCategories />} />

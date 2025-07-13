@@ -3,33 +3,33 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faIndustry, faFlask, faBoxes, faCheckCircle, faLeaf, faRecycle, faThermometerHalf, faTint } from '@fortawesome/free-solid-svg-icons';
 import '../css/Product1.css';
 
-const LiquidPolymaleicAcid = () => {
+const CopperCarbonate = () => {
     return (
         <div className="product-page">
             <div className="product-hero">
                 <div className="product-hero-content">
                     <div className="product-hero-text">
-                        <h1>Liquid Polymaleic Acid</h1>
+                        <h1>Copper Carbonate</h1>
                         <p className="product-subtitle">
-                            High-performance scale inhibitor and dispersant for water treatment applications
+                            High-purity copper carbonate for industrial and agricultural applications
                         </p>
                         <div className="product-highlights">
                             <div className="highlight-item">
                                 <FontAwesomeIcon icon={faCheckCircle} />
-                                <span>Scale inhibition</span>
+                                <span>Industrial grade</span>
                             </div>
                             <div className="highlight-item">
                                 <FontAwesomeIcon icon={faCheckCircle} />
-                                <span>Water treatment</span>
+                                <span>Fungicide</span>
                             </div>
                             <div className="highlight-item">
                                 <FontAwesomeIcon icon={faCheckCircle} />
-                                <span>Dispersant properties</span>
+                                <span>Pigment applications</span>
                             </div>
                         </div>
                     </div>
                     <div className="product-hero-image">
-                        <img src="/src/assets/clear.jpg" alt="Liquid Polymaleic Acid" />
+                        <img src="/src/assets/clear.jpg" alt="Copper Carbonate" />
                     </div>
                 </div>
             </div>
@@ -38,9 +38,9 @@ const LiquidPolymaleicAcid = () => {
                 <div className="product-section">
                     <h2>Product Overview</h2>
                     <p>
-                        Liquid Polymaleic Acid is a high-performance scale inhibitor and dispersant used in 
-                        water treatment systems. It effectively prevents scale formation and disperses suspended 
-                        particles in cooling water, boiler water, and other industrial water systems.
+                        Copper Carbonate is an inorganic compound containing copper and carbonate ions, widely used 
+                        in agriculture as a fungicide, in industrial applications as a pigment, and in various 
+                        chemical manufacturing processes. It provides effective copper for plant protection and industrial use.
                     </p>
                 </div>
 
@@ -50,29 +50,29 @@ const LiquidPolymaleicAcid = () => {
                         <div className="spec-item">
                             <FontAwesomeIcon icon={faFlask} />
                             <div>
-                                <h4>Active Content</h4>
-                                <p>50-60%</p>
+                                <h4>Copper Content</h4>
+                                <p>55-57%</p>
                             </div>
                         </div>
                         <div className="spec-item">
                             <FontAwesomeIcon icon={faThermometerHalf} />
                             <div>
-                                <h4>pH Range</h4>
-                                <p>1.5-3.0</p>
+                                <h4>Decomposition</h4>
+                                <p>200°C</p>
                             </div>
                         </div>
                         <div className="spec-item">
                             <FontAwesomeIcon icon={faTint} />
                             <div>
                                 <h4>Density</h4>
-                                <p>1.25-1.35 g/cm³</p>
+                                <p>3.9 g/cm³</p>
                             </div>
                         </div>
                         <div className="spec-item">
                             <FontAwesomeIcon icon={faIndustry} />
                             <div>
                                 <h4>Packaging</h4>
-                                <p>200L Drums, IBCs</p>
+                                <p>25kg Bags, Drums</p>
                             </div>
                         </div>
                     </div>
@@ -83,23 +83,23 @@ const LiquidPolymaleicAcid = () => {
                     <div className="applications-grid">
                         <div className="application-card">
                             <FontAwesomeIcon icon={faIndustry} />
-                            <h4>Cooling Water Systems</h4>
-                            <p>Scale inhibition and corrosion control in cooling towers</p>
+                            <h4>Agriculture</h4>
+                            <p>Fungicide for crop protection and disease control</p>
                         </div>
                         <div className="application-card">
                             <FontAwesomeIcon icon={faFlask} />
-                            <h4>Boiler Water Treatment</h4>
-                            <p>Scale prevention in boiler feed water systems</p>
+                            <h4>Pigment Manufacturing</h4>
+                            <p>Green pigment for paints and coatings</p>
                         </div>
                         <div className="application-card">
                             <FontAwesomeIcon icon={faBoxes} />
-                            <h4>Reverse Osmosis</h4>
-                            <p>Antiscalant for RO membrane protection</p>
+                            <h4>Chemical Synthesis</h4>
+                            <p>Copper source for chemical reactions</p>
                         </div>
                         <div className="application-card">
                             <FontAwesomeIcon icon={faRecycle} />
-                            <h4>Industrial Water</h4>
-                            <p>Scale control in various industrial water systems</p>
+                            <h4>Wood Preservation</h4>
+                            <p>Preservative for wood treatment</p>
                         </div>
                     </div>
                 </div>
@@ -107,12 +107,12 @@ const LiquidPolymaleicAcid = () => {
                 <div className="product-section">
                     <h2>Benefits</h2>
                     <ul className="benefits-list">
-                        <li>Excellent scale inhibition performance</li>
-                        <li>Effective dispersion of suspended particles</li>
-                        <li>Compatible with various water treatment chemicals</li>
-                        <li>Stable under high temperature conditions</li>
-                        <li>Cost-effective water treatment solution</li>
-                        <li>Environmentally friendly formulation</li>
+                        <li>Effective fungicidal properties</li>
+                        <li>High copper content</li>
+                        <li>Stable under normal conditions</li>
+                        <li>Cost-effective copper source</li>
+                        <li>Versatile applications</li>
+                        <li>Natural green color</li>
                     </ul>
                 </div>
 
@@ -122,28 +122,28 @@ const LiquidPolymaleicAcid = () => {
                         <table>
                             <tbody>
                                 <tr>
-                                    <td>Appearance</td>
-                                    <td>Clear to pale yellow liquid</td>
+                                    <td>Molecular Formula</td>
+                                    <td>CuCO₃·Cu(OH)₂</td>
                                 </tr>
                                 <tr>
                                     <td>Molecular Weight</td>
-                                    <td>400-800 g/mol</td>
+                                    <td>221.12 g/mol</td>
                                 </tr>
                                 <tr>
-                                    <td>Viscosity</td>
-                                    <td>50-200 cps at 25°C</td>
+                                    <td>Appearance</td>
+                                    <td>Green crystalline powder</td>
                                 </tr>
                                 <tr>
-                                    <td>Solubility</td>
-                                    <td>Fully soluble in water</td>
+                                    <td>pH (1% solution)</td>
+                                    <td>6.0-8.0</td>
                                 </tr>
                                 <tr>
-                                    <td>Stability</td>
-                                    <td>Stable up to 200°C</td>
+                                    <td>Bulk Density</td>
+                                    <td>1.2-1.5 g/cm³</td>
                                 </tr>
                                 <tr>
-                                    <td>Freezing Point</td>
-                                    <td>-5°C</td>
+                                    <td>Moisture Content</td>
+                                    <td>≤ 1.0%</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -155,15 +155,15 @@ const LiquidPolymaleicAcid = () => {
                     <div className="safety-info">
                         <div className="safety-item">
                             <h4>Handling</h4>
-                            <p>Use appropriate protective equipment. Avoid contact with skin and eyes. Handle in well-ventilated areas.</p>
+                            <p>Use in well-ventilated areas. Avoid inhalation of dust. Wear appropriate protective equipment.</p>
                         </div>
                         <div className="safety-item">
                             <h4>Storage</h4>
-                            <p>Store in a cool, dry place. Keep container tightly closed. Protect from freezing.</p>
+                            <p>Store in a cool, dry place in tightly closed containers. Protect from moisture.</p>
                         </div>
                         <div className="safety-item">
                             <h4>Transportation</h4>
-                            <p>Classified as corrosive liquid. Follow all applicable transportation regulations.</p>
+                            <p>Classified as hazardous material. Follow all applicable transportation regulations.</p>
                         </div>
                     </div>
                 </div>
@@ -171,9 +171,9 @@ const LiquidPolymaleicAcid = () => {
                 <div className="product-section">
                     <h2>Quality Assurance</h2>
                     <p>
-                        Our Liquid Polymaleic Acid is manufactured under strict quality control measures to ensure 
-                        consistent performance and effectiveness. Each batch is tested for active content, pH, 
-                        and performance characteristics.
+                        Our Copper Carbonate is manufactured under strict quality control measures to ensure 
+                        consistent purity and performance. Each batch is tested for compliance with 
+                        industry standards and our internal specifications.
                     </p>
                 </div>
             </div>
@@ -190,4 +190,4 @@ const LiquidPolymaleicAcid = () => {
     );
 };
 
-export default LiquidPolymaleicAcid; 
+export default CopperCarbonate; 

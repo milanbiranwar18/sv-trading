@@ -4,7 +4,7 @@ import { faPhone, faEnvelope, faMapMarkerAlt, faClock, faIndustry, faFlask, faSh
 import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 import '../css/Product1.css';
 
-const PotassiumSulphate = () => {
+const NitricAcid = () => {
     const [formData, setFormData] = useState({
         name: '',
         email: '',
@@ -40,15 +40,15 @@ const PotassiumSulphate = () => {
             {/* Hero Section */}
             <div className="product-hero">
                 <div className="hero-content">
-                    <h1>Potassium Sulphate</h1>
-                    <p className="product-subtitle">Premium Potassium Fertilizer for Agricultural Applications</p>
+                    <h1>Nitric Acid</h1>
+                    <p className="product-subtitle">Strong Inorganic Acid for Industrial and Chemical Applications</p>
                     <div className="price-info">
-                        <span className="price">₹ 75/Kg</span>
+                        <span className="price">₹ 45/Kg</span>
                         <span className="moq">Minimum Order Quantity: 100 Kg</span>
                     </div>
                 </div>
                 <div className="hero-image">
-                    <img src="/src/assets/chemical_placeholder.jpg" alt="Potassium Sulphate" />
+                    <img src="/src/assets/chemical_placeholder.jpg" alt="Nitric Acid" />
                 </div>
             </div>
 
@@ -59,26 +59,26 @@ const PotassiumSulphate = () => {
                     <section className="product-section">
                         <h2>Product Overview</h2>
                         <p>
-                            Potassium Sulphate is a white crystalline compound widely used in agriculture as a premium 
-                            potassium fertilizer. It provides both potassium and sulphur nutrients to plants and is 
-                            particularly suitable for chloride-sensitive crops.
+                            Nitric Acid is a strong inorganic acid widely used in chemical manufacturing, metal processing, 
+                            and industrial applications. It serves as an oxidizing agent, etching solution, and intermediate 
+                            in the production of various chemicals and fertilizers.
                         </p>
                         <div className="product-features">
                             <div className="feature">
-                                <FontAwesomeIcon icon={faSeedling} />
-                                <span>Agricultural Grade</span>
+                                <FontAwesomeIcon icon={faIndustry} />
+                                <span>Industrial Grade</span>
                             </div>
                             <div className="feature">
                                 <FontAwesomeIcon icon={faFlask} />
-                                <span>99% Purity</span>
+                                <span>68% Concentration</span>
                             </div>
                             <div className="feature">
-                                <FontAwesomeIcon icon={faShieldAlt} />
-                                <span>Premium Fertilizer</span>
+                                <FontAwesomeIcon icon={faTint} />
+                                <span>Liquid Form</span>
                             </div>
                             <div className="feature">
                                 <FontAwesomeIcon icon={faBoxes} />
-                                <span>100kg Bags</span>
+                                <span>100kg Drums</span>
                             </div>
                         </div>
                     </section>
@@ -88,28 +88,28 @@ const PotassiumSulphate = () => {
                         <h2>Technical Specifications</h2>
                         <div className="specs-grid">
                             <div className="spec-item">
-                                <span className="spec-label">Purity</span>
-                                <span className="spec-value">99%</span>
+                                <span className="spec-label">Concentration</span>
+                                <span className="spec-value">68%</span>
                             </div>
                             <div className="spec-item">
                                 <span className="spec-label">Form</span>
-                                <span className="spec-value">White Crystalline Powder</span>
+                                <span className="spec-value">Clear Liquid</span>
                             </div>
                             <div className="spec-item">
                                 <span className="spec-label">Usage/Application</span>
-                                <span className="spec-value">Agriculture, Fertilizer</span>
+                                <span className="spec-value">Chemical, Metal Processing, Industrial</span>
                             </div>
                             <div className="spec-item">
                                 <span className="spec-label">Grade</span>
-                                <span className="spec-value">Agricultural Grade</span>
+                                <span className="spec-value">Industrial Grade</span>
                             </div>
                             <div className="spec-item">
                                 <span className="spec-label">Packaging Details</span>
-                                <span className="spec-value">100kg Bag</span>
+                                <span className="spec-value">100kg Drum</span>
                             </div>
                             <div className="spec-item">
                                 <span className="spec-label">Chemical Formula</span>
-                                <span className="spec-value">K2SO4</span>
+                                <span className="spec-value">HNO3</span>
                             </div>
                         </div>
                     </section>
@@ -119,28 +119,28 @@ const PotassiumSulphate = () => {
                         <h2>Applications</h2>
                         <div className="applications-grid">
                             <div className="application-card">
-                                <h3>Agriculture</h3>
-                                <p>Used as a premium potassium fertilizer for various crops including fruits, vegetables, and tobacco.</p>
+                                <h3>Chemical Manufacturing</h3>
+                                <p>Used in the production of fertilizers, explosives, and various chemical compounds.</p>
                             </div>
                             <div className="application-card">
-                                <h3>Horticulture</h3>
-                                <p>Used in gardening and landscaping for plant nutrition and soil enrichment.</p>
+                                <h3>Metal Processing</h3>
+                                <p>Used for metal etching, pickling, and surface treatment in metallurgical processes.</p>
                             </div>
                             <div className="application-card">
-                                <h3>Greenhouse Farming</h3>
-                                <p>Used in controlled environment agriculture for precise nutrient management.</p>
+                                <h3>Fertilizer Industry</h3>
+                                <p>Used in the production of ammonium nitrate and other nitrogen-based fertilizers.</p>
                             </div>
                             <div className="application-card">
-                                <h3>Hydroponics</h3>
-                                <p>Used in hydroponic systems as a source of potassium and sulphur.</p>
+                                <h3>Electronics Industry</h3>
+                                <p>Used in semiconductor manufacturing for etching and cleaning processes.</p>
                             </div>
                             <div className="application-card">
-                                <h3>Fertilizer Blending</h3>
-                                <p>Used in fertilizer manufacturing for creating balanced NPK formulations.</p>
+                                <h3>Explosives Manufacturing</h3>
+                                <p>Used in the production of explosives and propellants for industrial applications.</p>
                             </div>
                             <div className="application-card">
-                                <h3>Soil Amendment</h3>
-                                <p>Used for soil improvement and potassium deficiency correction.</p>
+                                <h3>Laboratory Use</h3>
+                                <p>Used in analytical chemistry and research laboratories for various chemical reactions.</p>
                             </div>
                         </div>
                     </section>
@@ -149,12 +149,12 @@ const PotassiumSulphate = () => {
                     <section className="product-section">
                         <h2>Product Benefits</h2>
                         <ul className="benefits-list">
-                            <li>High purity 99% grade</li>
-                            <li>Contains both K and S nutrients</li>
-                            <li>Chloride-free formulation</li>
-                            <li>Excellent for sensitive crops</li>
-                            <li>Widely used in agriculture</li>
-                            <li>Premium fertilizer quality</li>
+                            <li>High concentration 68% grade</li>
+                            <li>Strong oxidizing agent</li>
+                            <li>Versatile industrial applications</li>
+                            <li>Excellent etching properties</li>
+                            <li>Widely used in manufacturing</li>
+                            <li>Multiple chemical uses</li>
                             <li>Reliable performance</li>
                         </ul>
                     </section>
@@ -165,27 +165,27 @@ const PotassiumSulphate = () => {
                         <div className="properties-grid">
                             <div className="property-item">
                                 <h3>Appearance</h3>
-                                <p>White crystalline powder</p>
+                                <p>Clear, colorless liquid</p>
                             </div>
                             <div className="property-item">
                                 <h3>Melting Point</h3>
-                                <p>1069°C (1956°F)</p>
+                                <p>-42°C (-44°F)</p>
+                            </div>
+                            <div className="property-item">
+                                <h3>Boiling Point</h3>
+                                <p>83°C (181°F)</p>
                             </div>
                             <div className="property-item">
                                 <h3>Density</h3>
-                                <p>2.66 g/cm³</p>
+                                <p>1.51 g/cm³</p>
                             </div>
                             <div className="property-item">
                                 <h3>Molecular Weight</h3>
-                                <p>174.26 g/mol</p>
+                                <p>63.01 g/mol</p>
                             </div>
                             <div className="property-item">
                                 <h3>CAS Number</h3>
-                                <p>7778-80-5</p>
-                            </div>
-                            <div className="property-item">
-                                <h3>Solubility</h3>
-                                <p>Soluble in water</p>
+                                <p>7697-37-2</p>
                             </div>
                         </div>
                     </section>
@@ -196,15 +196,15 @@ const PotassiumSulphate = () => {
                         <div className="safety-info">
                             <div className="safety-item">
                                 <h3>Storage</h3>
-                                <p>Store in a cool, dry place in tightly closed containers. Keep away from moisture.</p>
+                                <p>Store in a cool, well-ventilated area in tightly closed containers. Keep away from heat and reducing agents.</p>
                             </div>
                             <div className="safety-item">
                                 <h3>Handling</h3>
-                                <p>Use appropriate personal protective equipment. Avoid inhalation and direct contact with skin and eyes.</p>
+                                <p>Use appropriate personal protective equipment including gloves, goggles, and respiratory protection. Highly corrosive.</p>
                             </div>
                             <div className="safety-item">
                                 <h3>Disposal</h3>
-                                <p>Dispose of according to local environmental regulations. Safe for normal disposal.</p>
+                                <p>Dispose of according to local environmental regulations. Neutralize before disposal.</p>
                             </div>
                         </div>
                     </section>
@@ -306,4 +306,4 @@ const PotassiumSulphate = () => {
     );
 };
 
-export default PotassiumSulphate; 
+export default NitricAcid; 
