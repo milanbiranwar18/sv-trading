@@ -39,6 +39,7 @@ function Home() {
                 <div className="cta-buttons">
                     <Link to="/contact" className="get-quote-btn">Get a Quote</Link>
                 </div>
+                
             </div>
 
             {/* Main Hero Section */}
