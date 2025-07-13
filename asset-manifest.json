@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/sv-trading/static/css/main.a3d748b8.css",
-    "main.js": "/sv-trading/static/js/main.d757b12c.js",
+    "main.css": "/sv-trading/static/css/main.49fe22e0.css",
+    "main.js": "/sv-trading/static/js/main.a6561ef7.js",
     "static/js/453.c2aad9cf.chunk.js": "/sv-trading/static/js/453.c2aad9cf.chunk.js",
     "static/media/production.png": "/sv-trading/static/media/production.ccab3aa606278785deac.png",
     "static/media/about.png": "/sv-trading/static/media/about.71f937f6cdde4245d89c.png",
@@ -45,12 +45,12 @@
     "static/media/slick.ttf": "/sv-trading/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/sv-trading/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/sv-trading/index.html",
-    "main.a3d748b8.css.map": "/sv-trading/static/css/main.a3d748b8.css.map",
-    "main.d757b12c.js.map": "/sv-trading/static/js/main.d757b12c.js.map",
+    "main.49fe22e0.css.map": "/sv-trading/static/css/main.49fe22e0.css.map",
+    "main.a6561ef7.js.map": "/sv-trading/static/js/main.a6561ef7.js.map",
     "453.c2aad9cf.chunk.js.map": "/sv-trading/static/js/453.c2aad9cf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a3d748b8.css",
-    "static/js/main.d757b12c.js"
+    "static/css/main.49fe22e0.css",
+    "static/js/main.a6561ef7.js"
   ]
 }
